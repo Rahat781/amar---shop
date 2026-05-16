@@ -534,13 +534,13 @@
     <div>
       <p style="color: var(--muted); margin-bottom: 1.5rem; font-size: 0.95rem;">অর্ডার বা যেকোনো প্রশ্নের জন্য সরাসরি যোগাযোগ করুন:</p>
       <div style="display: flex; flex-direction: column; gap: 1rem;">
-        <a href="https://wa.me/8801XXXXXXXXX" target="_blank" class="btn-primary" style="display: flex; align-items: center; gap: 10px; justify-content: center; text-decoration: none;">
+        <a href="https://wa.me/8801636451322" target="_blank" class="btn-primary" style="display: flex; align-items: center; gap: 10px; justify-content: center; text-decoration: none;">
           📱 WhatsApp-এ মেসেজ করুন
         </a>
         <a href="https://m.me/YourFBPage" target="_blank" class="btn-ghost" style="display: flex; align-items: center; gap: 10px; justify-content: center; text-decoration: none;">
           💬 Facebook-এ মেসেজ করুন
         </a>
-        <a href="tel:+8801XXXXXXXXX" class="btn-ghost" style="display: flex; align-items: center; gap: 10px; justify-content: center; text-decoration: none;">
+        <a href="tel:+8801636451322" class="btn-ghost" style="display: flex; align-items: center; gap: 10px; justify-content: center; text-decoration: none;">
           📞 ফোন করুন
         </a>
       </div>
@@ -716,7 +716,7 @@ function checkout() {
   const items = cart.map(x => `${x.name} ×${x.qty}`).join(', ');
   const total = cart.reduce((s, x) => s + x.price * x.qty, 0);
   const msg = `অর্ডার: ${items} | মোট: ৳${total}`;
-  window.open(`https://wa.me/8801XXXXXXXXX?text=${encodeURIComponent(msg)}`, '_blank');
+  window.open(`https://wa.me/8801636451322?text=${encodeURIComponent(msg)}`, '_blank');
 }
 
 function submitOrder() {
